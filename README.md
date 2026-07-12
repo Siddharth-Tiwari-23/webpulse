@@ -93,10 +93,3 @@ The React dashboard polls `/api/websites` every 15 seconds and fires browser not
 
 ---
 
-## Future enhancements (from proposal)
-
-- [ ] JWT authentication & multi-user support
-- [ ] Email notifications (SMTP / SendGrid)
-- [ ] Response time graphs (Recharts)
-- [ ] Uptime percentage reports
-- [ ] Cloud deployment (Railway / Render)
