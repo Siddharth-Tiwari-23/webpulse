@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+
+# Go
+*.exe
+*.out
+*.test
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
