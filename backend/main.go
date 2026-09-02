@@ -24,7 +24,11 @@ func main() {
 	r.Use(gin.Recovery())
 	r.Use(middleware.Logger())
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:5173", "http://localhost:3000"},
+		AllowOrigins: []string{
+			"http://localhost:5173",
+			"http://localhost:3000",
+			"http://webpulse.siddharthtiwari.me",
+		},
 		AllowMethods:     []string{"GET", "POST", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Content-Type"},
 		AllowCredentials: true,
