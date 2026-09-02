@@ -28,6 +28,7 @@ func main() {
 			"http://localhost:5173",
 			"http://localhost:3000",
 			"http://webpulse.siddharthtiwari.me",
+			"https://webpulse.siddharthtiwari.me",
 		},
 		AllowMethods:     []string{"GET", "POST", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Content-Type"},
